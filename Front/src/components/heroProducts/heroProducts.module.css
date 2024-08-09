@@ -1,0 +1,19 @@
+.booksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.noBooks {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: #666;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}

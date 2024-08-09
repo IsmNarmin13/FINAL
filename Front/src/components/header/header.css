@@ -1,0 +1,12 @@
+.header-background {
+    background-image: url('/path/to/your/background-image.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1; /* Ensures the background is behind other content */
+}
+
+.header-content {
+    position: relative;
+    z-index: 2; /* Ensures the content is above the background */
+}
